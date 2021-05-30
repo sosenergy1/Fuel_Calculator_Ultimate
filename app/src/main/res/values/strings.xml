@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Üzemanyag Kalkulátor 1.0</string>
+    <string name="menu_setup">Beállítások</string>
+    <string name="menu_about">Rólunk</string>
+    <string name="but_txt">Számol</string>
+    <string name="menu_actual_consumption">Fogyasztás Kiszámítása</string>
+    <string name="exit">Kilépés</string>
+    <string name="sum_km">Utolsó tankolás óta megtett kilométerek száma</string>
+    <string name="sum_liter">Legutóbbi tankolás literben</string>
+    <string name="cons">Számolás</string>
+    <string name="over">Eredmény liter / 100 km</string>
+    <string name="over2">Liter/100 km</string>
+
+</resources>

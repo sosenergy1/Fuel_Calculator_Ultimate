@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actual_Consumption"
+    android:background="@drawable/backgr2"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sum_km"
+        android:id="@+id/sum__km"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sum_liter"
+        android:id="@+id/sum__liter"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cons_button"
+        android:text="@string/cons"
+        android:outlineAmbientShadowColor="@color/black"
+        android:backgroundTint=" #6f808e"
+        android:scrollbarStyle="insideInset"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="0"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/over"
+        android:id="@+id/eredmeny"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:maxLength="4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/over2"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+</LinearLayout>

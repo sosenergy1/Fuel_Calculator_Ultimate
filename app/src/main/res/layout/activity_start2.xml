@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+    android:weightSum="120">
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fuel Calculator 1.0"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+        -->
+
+    <EditText
+        android:id="@+id/blar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:hint="Üzemanyag liter ára Ft"
+        android:inputType="numberDecimal"
+        android:shadowColor="#191818"
+        android:shadowDx="10"
+        android:shadowDy="10" />
+
+    <EditText
+        android:id="@+id/fl100km"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:hint="Fogyasztás liter / 100km"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/mtkmpn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:hint="Megtett km / nap"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/mszam"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:hint="Munkanapok száma"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/szamol"
+        style="@style/Platform.MaterialComponents.Light"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:outlineAmbientShadowColor="@color/black"
+        android:backgroundTint=" #6f808e"
+        android:scrollbarStyle="insideInset"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="0"
+        android:text="@string/but_txt"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Megtett km / hó"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvfullkm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:hint=""
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Összes fogyasztás liter / hó"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvfullfogylpho"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:hint=""
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Bejárási költség / nap"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvbejarktgnap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:hint=""
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Összes Költség / hó"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvfullktgpho"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:hint=""
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Fogyasztás Forint / km"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvfogypkm"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:hint=""
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>
